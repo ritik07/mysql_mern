@@ -8,6 +8,7 @@ const {
 } = require("./user.service");
 const { genSaltSync, hashSync, compareSync } = require("bcrypt");
 const { sign } = require("jsonwebtoken");
+impot {Fade} from 'react-reveal/Fade';
 module.exports = {
     createUser: (req, res) => {
         const body = req.body;
